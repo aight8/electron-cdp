@@ -8,8 +8,8 @@
   "scripts": {
     "build": "yarn generate && yarn build:generated",
     "download-protocols": "scripts/download-protocols",
-    "generate": "ts-node scripts/generate.ts",
-    "build:generated": "tsc -p tsconfig.generation.json",
+    "generate": "rimraf generated-ts && ts-node scripts/generate.ts",
+    "build:generated": "rimraf build && tsc -p tsconfig.generation.json",
     "test": "node ./test/test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
