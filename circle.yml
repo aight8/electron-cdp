@@ -11,4 +11,4 @@ test:
     override:
         - yarn test
     post:
-        - semantic-release
+        - yarn semantic-release

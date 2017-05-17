@@ -1,6 +1,7 @@
 # electron-cdp
 
 [![CircleCI](https://circleci.com/gh/aight8/electron-cdp/tree/master.png?circle-token=84c03852ab9fbf2b54cfb49e919fc3addc8342c3&style=shield)]()
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
 ## Yarn scripts
 
