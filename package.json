@@ -1,10 +1,10 @@
 {
-    "name": "electron-cdp",
+    "name": "@jobjungle/electron-cdp",
     "description": "Automatically generated electron debugger wrapper (Chrome Debugging Protocol)",
     "version": "1.0.0",
     "main": "build/index.js",
     "author": "Sebastian Fekete",
-    "license": "MIT",
+    "license": "UNLICENSED",
     "scripts": {
         "build": "yarn generate && yarn build:generated",
         "download-protocols": "scripts/download-protocols",
