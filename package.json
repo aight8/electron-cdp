@@ -7,7 +7,8 @@
   "author": "Sebastian Fekete",
   "license": "UNLICENSED",
   "scripts": {
-    "__publish": "download-protocols && yarn build",
+    "__ublish": "yarn prepare && yarn build",
+    "prepare": "yarn download-protocols",
     "build": "yarn generate && yarn build:generated",
     "download-protocols": "scripts/download-protocols",
     "generate": "rimraf generated-ts && rimraf typings && ts-node scripts/generate.ts",

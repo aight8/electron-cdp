@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class DebuggerError extends Error {
+    constructor(message, code, commandName) {
+        super(message);
+        this.code = code;
+        this.commandName = commandName;
+    }
+}
+exports.default = DebuggerError;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVidWdnZXJFcnJvci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2dlbmVyYXRlZC10cy9EZWJ1Z2dlckVycm9yLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsbUJBQW1DLFNBQVEsS0FBSztJQUM1QyxZQUNJLE9BQWUsRUFDQyxJQUFZLEVBQ1osV0FBbUI7UUFFbkMsS0FBSyxDQUFDLE9BQU8sQ0FBQyxDQUFDO1FBSEMsU0FBSSxHQUFKLElBQUksQ0FBUTtRQUNaLGdCQUFXLEdBQVgsV0FBVyxDQUFRO0lBR3ZDLENBQUM7Q0FDSjtBQVJELGdDQVFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgY2xhc3MgRGVidWdnZXJFcnJvciBleHRlbmRzIEVycm9yIHtcbiAgICBjb25zdHJ1Y3RvcihcbiAgICAgICAgbWVzc2FnZTogc3RyaW5nLFxuICAgICAgICBwdWJsaWMgcmVhZG9ubHkgY29kZTogbnVtYmVyLFxuICAgICAgICBwdWJsaWMgcmVhZG9ubHkgY29tbWFuZE5hbWU6IHN0cmluZ1xuICAgICkge1xuICAgICAgICBzdXBlcihtZXNzYWdlKTtcbiAgICB9XG59Il19
