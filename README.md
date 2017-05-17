@@ -26,5 +26,4 @@ downside: more miggration / not strict API conform
 nice: more elegant to use in the code
 - singleton/static instance of CDP (only set the debugger once)
 - make types accessable by typing "CDP.Schema.setSomething.Params"
-
-type of deep nested object is not accessable for example EventProps
+- type of deep nested object is not accessable for example EventProps
