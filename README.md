@@ -4,8 +4,11 @@
 
 | Script | Description |
 |-|-|
-| download | download the protocol definitions in json format and save it to the ```/downloads``` folder |
-| bla | ga |
+| download | download the protocol definitions in json format and save it to the ```/downloads``` directory |
+| build | runs the generate and build:generated command |
+| generate | Generate the typescript source to ```generated-ts/``` |
+| build:generated | Compile the generated source from ```generated-ts/``` to ```build/``` |
+| test | Run tests |
 
 ## Todo
 

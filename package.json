@@ -6,7 +6,6 @@
     "author": "Sebastian Fekete",
     "license": "MIT",
     "scripts": {
-        "dev": "tsc",
         "build": "yarn generate && yarn build:generated",
         "download-protocols": "scripts/download-protocols",
         "generate": "ts-node scripts/generate.ts",
