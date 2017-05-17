@@ -1,0 +1,9 @@
+dependencies:
+    override:
+        - yarn
+    post:
+        - yarn download-protocols
+
+test:
+    override:
+        - yarn test
