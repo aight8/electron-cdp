@@ -3,7 +3,7 @@ dependencies:
         - yarn
     post:
         - yarn download-protocols
-
+        - yarn build
 test:
     override:
         - yarn test
