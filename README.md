@@ -1,5 +1,7 @@
 # electron-cdp
 
+[![CircleCI](https://circleci.com/gh/aight8/electron-cdp/tree/master.png?circle-token=84c03852ab9fbf2b54cfb49e919fc3addc8342c3&style=shield)]()
+
 ## Yarn scripts
 
 | Script | Description |
@@ -10,7 +12,7 @@
 | build:generated | Compile the generated source from ```generated-ts/``` to ```build/``` |
 | test | Run tests |
 
-## Todo
+## TODO
 
 add major/minor version to CDP class
 
