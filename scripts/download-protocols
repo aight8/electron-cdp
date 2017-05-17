@@ -9,7 +9,7 @@ JS_PROTOCOL_SRC="$BASE_URL/v8/v8.git/+/master/src/inspector/$JS_PROTOCOL?format=
 
 
 function download () {
-	curl -s $1 | base64 -D >"downloads/$2" || exit 1
+	curl -s $1 | base64 --decode >"downloads/$2" || exit 1
 }
 
 download "$BROWSER_PROTOCOL_SRC" "$BROWSER_PROTOCOL"
