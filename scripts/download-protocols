@@ -1,0 +1,16 @@
+#!/bin/bash
+set -x
+
+BASE_URL="https://chromium.googlesource.com"
+BROWSER_PROTOCOL="browser_protocol.json"
+JS_PROTOCOL="js_protocol.json"
+BROWSER_PROTOCOL_SRC="$BASE_URL/chromium/src/+/master/third_party/WebKit/Source/core/inspector/$BROWSER_PROTOCOL?format=TEXT"
+JS_PROTOCOL_SRC="$BASE_URL/v8/v8.git/+/master/src/inspector/$JS_PROTOCOL?format=TEXT"
+
+
+function download () {
+	curl -s $1 | base64 -D >"downloads/$2" || exit 1
+}
+
+download "$BROWSER_PROTOCOL_SRC" "$BROWSER_PROTOCOL"
+download "$JS_PROTOCOL_SRC" "$JS_PROTOCOL"

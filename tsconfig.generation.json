@@ -1,0 +1,30 @@
+{
+    "include": [
+        "generated-ts/*"
+    ],
+    "files": [
+        "node_modules/electron-typescript-definitions/electron.d.ts"
+    ],
+    "compilerOptions": {
+        "suppressImplicitAnyIndexErrors": true,
+        "strict": true,
+        "pretty": true,
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "newLine": "LF",
+        "inlineSources": true,
+        "inlineSourceMap": true,
+        "outDir": "build",
+        "target": "es2017",
+        "declaration": true,
+        "types": [
+            "node",
+            "typescript"
+        ],
+        "lib": [
+            "es2017",
+            "dom"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "include": [
+        "scripts/*"
+    ],
+    "compilerOptions": {
+        "watch": true,
+        "strict": true,
+        "pretty": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "newLine": "LF",
+        "inlineSources": true,
+        "inlineSourceMap": true,
+        "outDir": "build",
+        "allowJs": true,
+        "target": "es2017",
+        "types": [
+            "node",
+            "typescript"
+        ],
+        "lib": [
+            "es2017",
+            "dom"
+        ]
+    }
+}
