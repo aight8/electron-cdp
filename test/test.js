@@ -1,3 +1,3 @@
 const CDP = require('../')
 
-console.log('something')
+console.log('something and so one... some fake feature...')
