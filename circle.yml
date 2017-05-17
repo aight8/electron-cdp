@@ -10,3 +10,5 @@ dependencies:
 test:
     override:
         - yarn test
+    post:
+        - semantic-release
