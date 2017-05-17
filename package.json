@@ -1,7 +1,7 @@
 {
   "name": "electron-cdp",
   "description": "Automatically generated electron debugger wrapper (Chrome Debugging Protocol)",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "build/index.js",
   "typings": "typings",
   "author": "Sebastian Fekete",
